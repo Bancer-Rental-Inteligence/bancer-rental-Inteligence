@@ -1,9 +1,19 @@
+:root{
+    --color-white: #fff;
+    --color-bg: #1f2641;
+    --color-bg1: #2e3267;
+    --color-bg2: #424890;
+}
+
 body {
+    color: white;
     padding: 0;
     margin: 0;
     font-family: 'poppins',sans-serif;
+    background: var(--color-bg);
 }
 
 h1 {
     text-align: center
+
 }
